@@ -20,7 +20,7 @@ public class StepDefinitions {
 	   System.out.println(System.getProperty("user.dir"));
 	   System.setProperty("webdriver.gecko.driver" ,  System.getProperty("user.dir") + "/src/test/resources/driver/geckodriver");
 	   driver = new FirefoxDriver();
-	   driver.get("http://demo.guru99.com/test/newtours/");
+	   driver.get("http://alawdokcweb205:8023/");
 	}
 
 	@When("User enter username and password")
